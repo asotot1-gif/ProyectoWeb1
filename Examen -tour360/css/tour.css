@@ -1,0 +1,88 @@
+body {
+background-color: #f0f0f0;
+color: #222;
+font-family: Arial, Helvetica, sans-serif;
+overflow-x: hidden;
+min-width: 1400px; /* Fuerza ancho mínimo de escritorio */
+}
+
+/* ====== Contenedor principal ====== */
+#container_principal {
+width: 2000px;
+height: 650px;
+margin: 0 auto;
+border: 4px solid #088832;
+background-color: #000;
+overflow: hidden;
+position: relative;
+}
+
+/* ====== Visor Panolens ====== */
+#viewer,
+.panolens-container {
+width: 2000px !important;
+height: 650px !important;
+overflow: hidden;
+background-color: #000;
+}
+
+/* ====== Encabezado y pie ====== */
+header {
+width: 100%;
+padding: 30px;
+background-color: #0c8514;
+}
+
+footer {
+width: 100%;
+padding: 45px;
+background-color: #08832b;
+}
+
+header h1,
+footer h2 {
+text-align: center;
+color: white;
+margin: 0;
+}
+
+/* ====== Panel de información ====== */
+.panel-content {
+position: absolute;
+top: 20px;
+right: 20px;
+background-color: rgba(0, 0, 0, 0.9);
+color: white;
+padding: 20px;
+border-radius: 10px;
+width: 400px;
+max-height: 550px;
+overflow-y: auto;
+border: 2px solid #499211;
+box-shadow: 0px 0px 10px #000;
+z-index: 9999;
+}
+
+.panel-content img,
+.panel-content video,
+.panel-content audio,
+.panel-content iframe {
+width: 100%;
+margin-top: 10px;
+border-radius: 6px;
+}
+
+/* ====== Otros ====== */
+.cursor {
+cursor: pointer;
+}
+
+.fondo {
+background-color: #0b8a27;
+}
+
+iframe {
+border: none;
+width: 640px !important;
+height: 480px !important;
+}
